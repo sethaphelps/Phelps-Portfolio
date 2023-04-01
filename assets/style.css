@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #8a8986;
+    background-color: rgb(127, 148, 178) ;
 }
 
 /* Header */
@@ -16,24 +16,14 @@ header {
     background-color: white;
 }
 
-.pic {
-    position: relative;
-    height: 80px;
-    left: 20px;
-    top: 10px;
-}
-
 .name {
     position: relative;
     left: 35px;
 }
 
-.seth {
-    height: 60px;
-}
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 40px;
     color: black;
 }
 
@@ -54,9 +44,18 @@ a {
     color: black;
 }
 
-/* Section */
+/* Main */
 
-Section {
+
+
+.pics {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.section {
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -64,16 +63,24 @@ Section {
 
 .card {
     height: 300px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #big-photo {
-    width: 100%;
+    width: 750px;
 }
 
 /* Footer */
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(7, 7, 79);
-    color: white;
+    background-color:white;
+    color: black;
+
+}
+
+.contacts {
+    color: black;
 }
