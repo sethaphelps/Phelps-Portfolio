@@ -66,6 +66,7 @@ main {
 #about {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
 }
 
 #me {
@@ -78,7 +79,9 @@ main {
 #para{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    text-align: center;
 }
+
 /* Images */
 
 #apps {
@@ -136,12 +139,39 @@ footer h5 {
 
 @media screen and (max-width: 992px) {
   .small-projects-container {
-    width: 50%;
+    width: 100%;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .small-projects-container {
+  main {
+    flex-wrap: wrap;
+  }
+  .sidebar aside{
+    width: 100%;
+  }
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #about {
+    width: 100%;
+    text-align: center;
+  }
+  .name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+  #para {
+    text-align: center;
+  }
+  header {
+    flex-wrap: wrap;
+  }
+  header nav {
     width: 100%;
   }
 }
