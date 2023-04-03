@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(222, 163, 111) ;
+    background-color: rgb(110, 148, 190) ;
 }
 
 /* Header */
@@ -51,24 +51,7 @@ main {
     width: 100%;
 }
 
-.small-projects-container {
-    display: flex;
-}
-
-img {
-    width: 100%;
-}
-
-.pic {
-    flex: 1 0 0;
-    padding: 3px;
-    text-align: center;
-    border-style: solid;
-    border-width: 5px;
-    margin: 1px;
-    background-color: rgb(161, 23, 23);
-    width: 50%;
-}
+/* Aside */
 
 .sidebar {
     flex: 1;
@@ -92,6 +75,43 @@ img {
     margin-bottom: 25px;
 }
 
+#para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/* Images */
+
+#apps {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 30px;
+    color: black;
+    padding: 3px;
+}
+
+.small-projects-container {
+    display: flex;
+}
+
+#big {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.pic {
+    flex: 1 0 0;
+    padding: 3px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    margin: 1px;
+    background-color:rgb(110, 148, 190);
+    width: 50%;
+}
+ 
 /* Footer */
 
 footer {
@@ -104,9 +124,24 @@ footer {
 footer h4 {
     text-decoration: underline;
     font-size: 30px;
-    
 }
 
 footer h5 {
     font-size: 20px;
+}
+
+#git {
+   font-size: 20px; 
+}
+
+@media screen and (max-width: 992px) {
+  .small-projects-container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .small-projects-container {
+    width: 100%;
+  }
 }
